@@ -1,9 +1,13 @@
+html {
+    font-size: 100%;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
 body {
     width: auto;
     max-width: 100%;
     text-align: center;
     background-color:rgb(96, 177, 180);
-    font-family: Verdana, sans-serif;
 }
 
 h1 {
@@ -37,10 +41,17 @@ nav {
     width: 100%;
     text-align: center;
     list-style: none;
-    margin-left: -3%;
+    margin-left: -1.5%;
 }
 li {
     display: inline;
+}
+
+#directory {
+    display:flex;
+    justify-content:center;
+    flex-flow: row wrap;
+    gap: 10px;
 }
 
 .direct {
@@ -48,6 +59,9 @@ li {
 }
 
 #pastwork {
+    display:flex;
+    justify-content:space-evenly;
+    flex-flow: column wrap;
     color: white;
     text-align: center;
     background-color: rgb(240, 240, 240);
@@ -70,6 +84,10 @@ li {
     height: 50px;
     padding-top: 25px;
     margin-left: 20%;
+    transition: background-color .3s ease-in;
+}
+.pw:hover {
+    background-color: white;
 }
 
 #contact {
