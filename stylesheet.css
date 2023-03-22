@@ -10,7 +10,7 @@ body {
     background-color:rgb(96, 177, 180);
 }
 
-h1 {
+.header_name {
     font-size: 2rem;
     text-align: center;
     color: white;
@@ -23,7 +23,7 @@ h1 {
     box-sizing: border-box;
 }
 
-#subheader {
+.header_sub {
     font-size: 1rem;
     text-align: center;
     color: white;
@@ -47,7 +47,7 @@ li {
     display: inline;
 }
 
-#directory {
+.directory {
     display:flex;
     justify-content:center;
     flex-flow: row wrap;
@@ -58,7 +58,7 @@ li {
     background-color: rgb(96, 177, 180);
 }
 
-#pastwork {
+.pastwork {
     display:flex;
     justify-content:space-evenly;
     flex-flow: column wrap;
@@ -90,7 +90,7 @@ li {
     background-color: white;
 }
 
-#contact {
+.contact {
     text-align: right;
     font-size: .75rem;
     color: white;
