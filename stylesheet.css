@@ -73,7 +73,7 @@ a:hover {
 }
 
 
-.pastwork {
+.pastwork, .about {
     display:flex;
     justify-content:space-evenly;
     flex-flow: column wrap;
@@ -83,15 +83,15 @@ a:hover {
     width: 70vw;
     
 }
-.pwtitle {
+.pwtitle, .about_title {
     font-size: 1.6rem;
     background-color: var(--white);
     border-radius: 20px;
     padding: 10px 20px;
     margin: 10px auto;
     box-shadow: .8vw .8vw var(--darkgreen);
-
 }
+
 .pw {
     background-color: var(--white);
     width: 70vw;
@@ -104,6 +104,10 @@ a:hover {
 }
 .pw:hover {
     background-color: white;
+}
+
+.about_title {
+    width: 10vw;
 }
 
 .contact {
@@ -123,7 +127,7 @@ a:hover {
 }
 
 
-.pwbody {
+.pwbody, .about_body {
     text-align: center;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -134,5 +138,25 @@ a:hover {
 }
 
 .pwimg {
-    width: 90%;
+    max-width: 30vw;
+}
+.about_img {
+    float: left;
+    width: 20vw;
+    margin: 1.5vw 2vw 1vw 0px;
+    border-radius: 20px;
+}
+.about_text {
+    display: inline;
+    width: 20vw;
+    text-align: justify;
+}
+
+.about_body {
+    margin-top: 10px;
+    border: 2px solid;
+    border-color: var(--darkgreen);
+    border-radius: 20px;
+    background-color: var(--white);
+    box-shadow: 1vw 1vw var(--darkgreen);
 }
