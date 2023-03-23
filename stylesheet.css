@@ -118,7 +118,8 @@ a:hover {
 }
 
 .about_title {
-    width: 10vw;
+    min-width: 10vw;
+    padding: 10px;
 }
 .res_title {
     width: 60vw;
@@ -217,3 +218,23 @@ a:hover {
     border-color: var(--darkgreen);
     box-shadow: .8vw .8vw var(--darkgreen);
 }
+
+@media screen and (max-width: 600px) {
+    .about_img {
+        width: 60vw;
+        margin: 2vw;
+        border-radius: 20px;
+    }
+    .direct {
+        display: block;
+        font-size: 1.2rem;
+        margin-left: auto;
+        margin-right: auto;
+        padding-left: 0px;
+        padding-right: 0px;
+        text-align: center;
+    }
+    .right_of {
+        padding-left: auto;
+    }
+  }
