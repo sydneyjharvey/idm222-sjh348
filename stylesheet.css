@@ -25,14 +25,19 @@ body {
     background-color: var(--lightgreen);
 }
 a {
-    transition: .3s ease-in;
+    transition: .2s ease-in;
 }
 a:link, a:visited {
     color: var(--darkgreen);
 }
+
+p {
+    color: var(--black);
+    text-align: left;
+}
+
 a:hover {
     color: var(--coral);
-
 }
 
 .header {
@@ -41,6 +46,8 @@ a:hover {
     background-color: var(--white);
     margin-top: 10px;
     border-radius: 20px;
+    border: 3px solid;
+    border-color: var(--darkgreen);
     box-shadow: 1vw 1vw var(--darkgreen);
 }
 
@@ -59,7 +66,7 @@ a:hover {
 }
 
 .directory {
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 20px;
 }
 
@@ -83,12 +90,14 @@ a:hover {
     width: 70vw;
     
 }
-.pwtitle, .about_title {
+.pwtitle, .about_title, .res_title {
     font-size: 1.6rem;
     background-color: var(--white);
     border-radius: 20px;
     padding: 10px 20px;
     margin: 10px auto;
+    border: 3px solid;
+    border-color: var(--darkgreen);
     box-shadow: .8vw .8vw var(--darkgreen);
 }
 
@@ -100,6 +109,8 @@ a:hover {
     border-radius: 20px;
     font-size: 1.2rem;
     transition: background-color .3s ease-in;
+    border: 3px solid;
+    border-color: var(--darkgreen);
     box-shadow: .8vw .8vw var(--darkgreen);
 }
 .pw:hover {
@@ -109,6 +120,11 @@ a:hover {
 .about_title {
     width: 10vw;
 }
+.res_title {
+    width: 60vw;
+    margin: 10vw auto;
+    padding: 2vw 0px;
+}
 
 .contact {
     font-size: .75rem;
@@ -116,9 +132,11 @@ a:hover {
     background-color: var(--white);
     width: 70vw;
     height: auto;
-    margin: 20px auto 10px auto;
+    margin: 20px auto 20px auto;
     box-sizing: border-box;
     border-radius: 20px;
+    border: 3px solid;
+    border-color: var(--darkgreen);
     box-shadow: .8vw .8vw var(--darkgreen);
 }
 .cont {
@@ -135,10 +153,27 @@ a:hover {
     margin-left: 5%;
     padding-left: 5%;
     padding-right: 5%;
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: var(--darkgreen);
+    box-shadow: .8vw .8vw var(--darkgreen);
 }
 
 .pwimg {
-    max-width: 30vw;
+    margin: auto 1vw;
+}
+.double {
+    max-width: 21vw;
+    display: inline;
+}
+.single, .pw_text {
+    max-height: 40vw;
+    max-width: 45vw;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 0px;
+    padding-right: 0px;
 }
 .about_img {
     float: left;
@@ -153,10 +188,32 @@ a:hover {
 }
 
 .about_body {
+    width: auto;
+    margin-left: 0px;
     margin-top: 10px;
-    border: 2px solid;
+    border: 3px solid;
     border-color: var(--darkgreen);
     border-radius: 20px;
     background-color: var(--white);
     box-shadow: 1vw 1vw var(--darkgreen);
+}
+
+.pw_content {
+    width: 70vw;
+    margin-top: 50px;
+}
+
+.pwcont_body {
+    margin-top: 20px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 63vw;
+    padding-left: 5%;
+    padding-right: 5%;
+    background-color: var(--white);
+    border-radius: 20px;
+    border: 3px solid;
+    border-color: var(--darkgreen);
+    box-shadow: .8vw .8vw var(--darkgreen);
 }
